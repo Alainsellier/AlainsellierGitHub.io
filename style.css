@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap');
+html {
+    scroll-behavior: smooth;
+ }
+
+body{
+    font-family: 'Advent Pro', sans-serif ;
+    padding: 0;
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+ }
+ h2{ 
+     text-transform: uppercase;
+     text-align: center;
+     padding-top: 30;
+     font-size: 2em;
+ }
+ a{ 
+     text-decoration: none;
+     color: black;
+ }
+ /* *****************NAVBAR************** */
+nav {
+overflow: hidden;
+background-color: blanchedalmond;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+  }
+  header li {
+      float: right;
+      font-size: 1.2em;
+   }
+   header li a {
+       text-decoration: none;
+       display: block;
+       text-align: center;
+       padding: 18px 16px;
+    }
+#logo {
+    font-family: 'Dancing Script';
+    font-weight: bold;
+    float: left;
+ }
+ /* ***********************IMAGEPRINCIPALE********************* */
+ #imagePrincipale {
+     padding-left: 100px;
+     background: url(media/façade.png) no-repeat fixed 50% 50%;
+     background-size: cover;
+     height: 800px;
+  }
+  h1 {
+      font-family: 'Dancing Script';
+      text-align: center;
+      color:aliceblue;
+      font-size: 6em;
+      margin-top: 1px;
+      text-shadow: 1px 3px 2px black;
+   }
+   #premierTrait { 
+       height: 1px;
+       width: 25%;
+       margin: -3px auto;
+       background-color: blue;
+       box-shadow: 1px 3px 2px black;
+   }
+   h3 { 
+       text-align: center;
+       color: aliceblue;
+       font-size: 4em;
+       text-shadow: 1px 3px 2px black;
+
+   }
+   /* ************************PRESENTATION************** */
+   #presentation { 
+       background-color: bisque;
+       padding: 10px 0px 100px 0;
+   }
+   #textIntro {
+       padding: 0px 20%;
+    }
+    #prestations {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 30px 10%;
+     }
+     .imagesPrestations h4 { 
+         font-family: 'Dancing Script';
+         text-align: center;
+         font-size: 1.8em;
+         margin: 15px;
+         font-weight: 300;
+     }
+     .imagesPrestations img {
+         border-radius: 50px;
+         box-shadow: 5px 5px 15px 5px #000000;
+      }
+      .imagesPrestations img:hover {
+          opacity: 0.5;
+          transform: scale(1.05);
+          transition: 0.8s ease-in-out; 
+       }
+       /* *************************TOURISME*********************** */
+       #tourisme { 
+           height: 1400px;
+           background-color: aqua;
+           padding: 1px 2%;
+       }
+       #tourisme h2 {
+           padding-top: 60px;
+        }
+        #ville { 
+            background: url(media/ville.png);
+        }
+        #centre { 
+            background: url(media/centre.png);
+        }
+        #meuse { 
+            background: url(media/meuse.png);
+        }
+        #TerrAltitude { 
+            background: url(media/TerrAltitude.png);
+        }
+        #tourisme li {
+            margin: 65px 100px 0 100px;
+            height: 226px;
+            width: 55%;
+            max-width: 550px;
+            float: left;
+            box-shadow: 6px 6px 28px -1 coral;
+         }
+         #tourisme p { 
+             height: 45px;
+             width: 235px;
+             background-color: chartreuse;
+             float: right;
+             margin: 50px -180px 0 0;
+             font-size: 1.5em;
+             text-align: center;
+             padding-top: 15px;
+             box-shadow: 4px 4px 0 1px rgba(90, 161, 43, 1);
+         }
+         #tourisme #ville, #tourisme #meuse {
+             float: right;          
+          }
+          #ville p, #meuse p { 
+              float: left;
+              background-color: fuchsia;
+              margin-left: -180px;
+              box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
+          }
+          /* **************FOOTER************ */
+          footer  { 
+              background-color: saddlebrown;
+              color: sienna;
+              padding: 20px 0 10px 0;
+              text-align: center;
+
+          }
+          form {
+              margin: 0 auto;
+              max-width: 900px;
+           }
+           input, textarea, button { 
+               border: none;
+               width: 55%;
+               padding: 15px 10px;
+               margin: 1px 0;
+               font-size: 1.2em;
+               font-family: 'Advent Pro' , sans-serif;
+               border-radius: 8px;
+           }
+           textarea { 
+               height: 120px;
+           }
+           button { 
+               font-size: 1.5em;
+               background-color: lawngreen;
+           }
+           button:hover { 
+               background-color: violet;
+               color: khaki;
+               cursor: pointer;
+               transition: 0.5s ease-in-out; 
+           }
+           #deuxiemeTrait { 
+               height: 1px;
+               width: 75%;
+               background-color: blanchedalmond;
+               margin: 60px auto;
+           }
+            #copyrightEtIcons {
+                display: flex;
+                margin-bottom: 20px;
+                padding: 0 10%;
+             }
+             #copyright {
+                 width: 50%;
+                 text-align: left;
+                 color: rgb(215, 250, 232);
+              }
+              #icons { 
+                  width: 50%;
+                  text-align: right;
+              }
+              #icons a { 
+                  display: inline-block;
+                  margin: 0 15px;
+                  font-size: 1.3em;
+                  color: aliceblue;
+              }
+              #icons a:hover { 
+                  transform: scale(1.5);
+                  transition: 0.2s;
+              }
